@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSript</title>
+    <style>
+        body {
+            background-color: hsl(0, 91%, 26%);
+            color: white;
+            font: normal 40pt arial;
+        }
+    </style>
+</head>
+<body>
+    Olá, mundo!
+
+    <script> //Como armazenar dados em JS
+        var n1 = Number(prompt('Digite um número?'))
+        var n2 = Number(prompt('Digite outro número?'))
+        var s = n1 + n2 
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // + serve para concatenação ou adição, mas o javascript fica confuso, o prompt retorna um valor string, então devemos transformar o string em number para o JS entender e somar os valores
+    </script>
+</body>
+</html>

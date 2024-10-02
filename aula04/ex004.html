@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(6, 168, 147);
+            color: white;
+            font: normal 30pt arial;
+        }
+    </style>
+</head>
+<body>
+    <p>Aprendendo a usar DOM(Document Object Model)</p>
+    <div id="ux">Clique em mim</div>
+    <div id="ui">Olá mundo</div>
+    <script>
+        var d = document.getElementById('ux')
+        d.style.background = 'green'
+
+        var a = document.querySelector('div#ui') // aqui é # porque é ID, mas se for classe é .
+        a.style.background = 'black'
+    </script>
+</body>
+</html>
