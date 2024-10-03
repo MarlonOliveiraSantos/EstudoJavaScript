@@ -14,6 +14,5 @@ function gerar() {
             tab.appendChild(item)
             c++
         }
-    }
-    
+    }   
 }
